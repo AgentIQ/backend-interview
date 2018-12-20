@@ -1,6 +1,6 @@
 
 ## Assignment
-The goal of this exercise is to get a good idea of your experience of a variety of backend technologies, how your write code and approach the problem. Application should consumes automatically create a schema a sql database and import data given chat transcript api endpoint (JSON formatted). Executing the program or endpoint again should import the data without recreating the schema. 
+The goal of this exercise is to get a good idea of your experience of a variety of backend technologies, how your write code and approach the problem. Application import data from chat transcript api endpoint (JSON formatted). Executing the program or endpoint again should import the data without recreating the schema. 
 
 #### Please describe instruction in readme
 1. Overview of your implementation
@@ -17,9 +17,12 @@ The following REST endpoint returns a sample of chat transcripts in json.
 
 http://www.mocky.io/v2/5c06f1543000005a00d25947
 
+### Application
+Goal : Import data JSON data into SQL database from endpoint.
+
 ### Data Analysis
-Write a SQL query that will help us understand how many active customers and which page they came from
-1. How many conversations have messages from customers not agents break down by
+Goal : Write one SQL query that will help us understand how many active customers and which page they came from
+1. How many conversations have messages from customers and not agents grouped by
     - Which pages they came from (message_referer_url)
     - Conversation date
     - Conversation id
